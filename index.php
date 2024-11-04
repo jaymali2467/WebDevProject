@@ -7,7 +7,7 @@ session_start();
 $flight = new Flight();
 
 // Get popular destinations (this would typically come from a database)
-$popularDestinations = $flight->getPopularDestinations();
+
 ?>
 
 <!DOCTYPE html>
