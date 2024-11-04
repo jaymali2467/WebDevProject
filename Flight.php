@@ -29,8 +29,7 @@ class Flight
 
     public function getPopularDestinations()
     {
-        // In a real application, you would query your database here
-        // For this example, we'll return dummy data
+        
         return [
             [
                 'name' => 'Paris',
