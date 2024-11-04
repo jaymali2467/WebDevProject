@@ -27,25 +27,5 @@ class Flight
         ];
     }
 
-    public function getPopularDestinations()
-    {
-        
-        return [
-            [
-                'name' => 'Paris',
-                'image' => 'https://example.com/paris.jpg',
-                'description' => 'The City of Light awaits you!'
-            ],
-            [
-                'name' => 'Tokyo',
-                'image' => 'https://example.com/tokyo.jpg',
-                'description' => 'Experience the blend of tradition and technology.'
-            ],
-            [
-                'name' => 'New York',
-                'image' => 'https://example.com/newyork.jpg',
-                'description' => 'The city that never sleeps.'
-            ]
-        ];
-    }
+   
 }
